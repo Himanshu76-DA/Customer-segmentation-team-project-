@@ -1,95 +1,109 @@
 # 🧠 Customer Segmentation Team Project
 
-## 👥 Team Members
-- **Project Guider:** [RD Group of Industries](https://github.com/TheRDGroupOfIndustries)  
+## 👥 Team Members  
+- **Project Guided by:** [RD Group of Industries](https://github.com/TheRDGroupOfIndustries)  
 - **Siddhesh:** [@siddheshDA](https://github.com/siddheshDA)  
 - **Nandini:** [@nandiniarjun03](https://github.com/nandiniarjun03)  
-- **Himanshu:** [@Himanshu76-DA](https://github.com/Himanshu76-DA)  
+- **Himanshu(me):** [@Himanshu76-DA](https://github.com/Himanshu76-DA)  
 
 ---
 
-## 🧩 Project Details
+## 🧩 Project Overview  
 
-### 🔹 Data Cleaning  
+This project focuses on **Customer Segmentation** using **RFM (Recency, Frequency, Monetary) analysis**, supported by **Exploratory Data Analysis (EDA)** and **data cleaning**.  
+The goal is to identify valuable customer groups, analyze their purchasing patterns, and extract actionable business insights to improve customer retention and marketing strategies.  
+
+---
+
+## 🔹 Data Cleaning  
 **Performed by:** [Siddhesh](https://github.com/siddheshDA)  
-- Handled null and missing values  
-- Removed duplicates and corrected data types  
-- Created new columns like **Order Date**, **Order Time**, **Approval Date & Time**, and **Delivered Date & Time**  
-- Prepared a clean, EDA-ready dataset  
+
+### 🧼 Key Steps:
+- Handled missing and null values  
+- Removed duplicates and fixed incorrect data types  
+- Created new features such as **Order Date**, **Order Time**, **Approval Date & Time**, and **Delivered Date & Time**  
+- Produced a clean dataset ready for EDA and clustering  
 
 **📂 Files:**  
 - [Cleaned Dataset](https://github.com/Himanshu76-DA/Customer-segmentation-team-project-/blob/main/Olis_Order_Dataset(EDA).zip.zip)  
-- [Jupyter Notebook](https://github.com/Himanshu76-DA/Customer-segmentation-team-project-/blob/main/Olis_Dataset_jup.ipynb)
+- [Data Cleaning Notebook](https://github.com/Himanshu76-DA/Customer-segmentation-team-project-/blob/main/Olis_Dataset_jup.ipynb)  
 
 ---
 
-### 🔹 RFM Clustering  
-**Performed by:** [Himanshu](https://github.com/Himanshu76-DA)  
-- Segmented customers into clusters using **Recency, Frequency, and Monetary (RFM)** analysis  
-- Visualized clusters in 2D & 3D  
-- Generated summary statistics and new datasets  
+## 🔹 RFM Clustering  
+**Performed by:** [me](https://github.com/Himanshu76-DA)  
+
+### ⚙️ Key Tasks:
+- Segmented customers using **RFM Analysis** to measure engagement  
+- Clustered customers into actionable groups using **K-Means Clustering**  
+- Visualized results in **2D and 3D plots**  
+- Created RFM and RFM_stats summary tables and exported results for further use  
 
 **📂 Files:**  
 - [RFM Table](https://github.com/Himanshu76-DA/Customer-segmentation-team-project-/blob/main/RFM_Olis_cust_data.csv)  
-- [RFM Stats](https://github.com/Himanshu76-DA/Customer-segmentation-team-project-/blob/main/RFM_stats_data.csv)  
+- [RFM Summary Stats](https://github.com/Himanshu76-DA/Customer-segmentation-team-project-/blob/main/RFM_stats_data.csv)  
 - [Notebook](https://github.com/Himanshu76-DA/Customer-segmentation-team-project-/blob/main/Olis_Dataset_jup.ipynb)  
 
 **📊 Visuals:**  
 ![Customer Clustering 2D](https://raw.githubusercontent.com/Himanshu76-DA/Customer-segmentation-team-project-/main/Customer%20clustering.png)  
-![Customer Clustering 3D](https://raw.githubusercontent.com/Himanshu76-DA/Customer-segmentation-team-project-/main/Customer%20clustering%203d%20graph.png)
+![Customer Clustering 3D](https://raw.githubusercontent.com/Himanshu76-DA/Customer-segmentation-team-project-/main/Customer%20clustering%203d%20graph.png)  
 
-**📈 Key Insights:**  
-1. **High-Value Customers (665 people)** → ~15% of total revenue, avg monetary = 670  
-2. **Inactive Customers (40,000)** → total monetary = 10 lakh, avg = 26  
-3. **Loyal Customers (352)** → buy **2.17× more often**, ideal for loyalty rewards  
-4. **Super Frequent Customer (1 record)** → 21 purchases; possible outlier/test account  
+### 💡 Key Insights:
+1. **High-Value Customers (665)** → Contribute ~15% of total revenue, avg monetary = ₹670  
+2. **Inactive Customers (400)** → Total monetary = ₹10L, avg = ₹26  
+3. **Loyal Customers (352)** → Purchase **2.17× more frequently**, ideal for loyalty campaigns  
+4. **Super Frequent Buyer (1 record)** → 21 purchases — likely an outlier/test account  
 
 ---
 
-### 🔹 Exploratory Data Analysis (EDA)  
-**Performed by:** [Nandini](https://github.com/nandiniarjun03)  
-**Dataset Used:** [Cleaned Dataset](https://github.com/Himanshu76-DA/Customer-segmentation-team-project-/blob/main/Olis_Order_Dataset(EDA).zip.zip)  
-**Jupyter File:** [EDA Notebook](https://github.com/Himanshu76-DA/Customer-segmentation-team-project-/blob/main/Olis_data_jup(Eda)%20Final%20File.ipynb)  
+## 🔹 Exploratory Data Analysis (EDA)  
+**Performed by:** [Nandini](https://github.com/nandiniarjun03)
+  
+**📂 Files:** 
 
-**📊 Visual Insights:**  
+- **Dataset Used:** [Cleaned Dataset](https://github.com/Himanshu76-DA/Customer-segmentation-team-project-/blob/main/Olis_Order_Dataset(EDA).zip.zip)  
+- **Notebook:** [EDA File](https://github.com/Himanshu76-DA/Customer-segmentation-team-project-/blob/main/Olis_data_jup(Eda)%20Final%20File.ipynb)  
 
-**1. Delivery Speed vs Rating**  
+### 📊 Visual Insights  
+
+#### 1. Delivery Speed vs Ratings  
 ![Heatmap](https://raw.githubusercontent.com/Himanshu76-DA/Customer-segmentation-team-project-/main/Heatmap.png)  
-➡️ Customers receiving faster deliveries tend to give higher ratings.
+> ⚡ Customers receiving faster deliveries tend to leave higher ratings.  
 
-**2. Profit Over Time**  
+#### 2. Profit Over Time  
 ![Profit Over Time](https://raw.githubusercontent.com/Himanshu76-DA/Customer-segmentation-team-project-/main/Profit%20over%20time.png)  
-📈 December 2017 was the peak profit month.
+> 📈 December 2017 marked the highest profit peak.  
 
-**3. Average Delivery Time per State**  
+#### 3. Average Delivery Time per State  
 ![Avg Delivery Time per State](https://raw.githubusercontent.com/Himanshu76-DA/Customer-segmentation-team-project-/main/Avg%20delivery%20time%20per%20states.png)  
-⏱️ RR State shows the highest average delivery time.
+> ⏱️ *RR* state recorded the highest average delivery time.  
 
-**4. Average Delivery Time per Product Category**  
+#### 4. Average Delivery Time per Product Category  
 ![Avg Delivery Time per Product Category](https://raw.githubusercontent.com/Himanshu76-DA/Customer-segmentation-team-project-/main/Avg%20delivary%20days%20per%20product%20category.png)  
-📦 Movies Escritorio has the longest delivery time.
+> 📦 *Movies Escritorio* category faced the longest delivery delays.  
 
-**5. Delayed Cases by State**  
-![Delayed Cases by State](https://raw.githubusercontent.com/Himanshu76-DA/Customer-segmentation-team-project-/main/Delayed_Cases_by_State.png)
-⚠️ SP State tops in delayed deliveries (1,750 cases).
+#### 5. Delayed Deliveries by State  
+![Delayed Cases by State](https://raw.githubusercontent.com/Himanshu76-DA/Customer-segmentation-team-project-/main/Customer%20Counts%20by%20states%20having%20delayed%20delivery%20status.png)  
+> ⚠️ *SP* state reported the highest delay count (1,750 cases).  
 
-**6. Loss Over Time**  
-![Loss Over Time](https://raw.githubusercontent.com/Himanshu76-DA/Customer-segmentation-team-project-/main/loss%20over%20time.png)
-
----
-
-## 🚀 Summary
-This project demonstrates a complete **data analytics workflow** — **data cleaning → RFM customer segmentation → EDA visualizations**, collaboratively performed by our team.
+#### 6. Loss Over Time  
+![Loss Over Time](https://raw.githubusercontent.com/Himanshu76-DA/Customer-segmentation-team-project-/main/loss%20over%20time.png)  
+> 💰 Losses were highest during months with low order volume and high cancellations.  
 
 ---
 
-### 🏷️ Repository:
-**[Customer-segmentation-team-project-](https://github.com/Himanshu76-DA/Customer-segmentation-team-project-)**
-
-## 🚀 Summary
-This project demonstrates a full **data analytics workflow** — from **data cleaning** → **RFM-based customer segmentation** → **EDA visualization**, collaboratively performed by our team.
+## Summary:  
+- Clean data and RFM clustering helped identify **valuable customer groups**.  
+- Visual insights supported targeted **marketing and delivery improvements**.  
+- The analysis can be expanded to include **predictive modeling** or **customer lifetime value estimation**.  
 
 ---
 
-### 🏷️ Repository:
-**[Customer-segmentation-team-project-](https://github.com/Himanshu76-DA/Customer-segmentation-team-project-)**
+## 🧾 Tools & Libraries  
+- **Python:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Jupyter Notebook  
+- **Techniques:** EDA, Data Cleaning, RFM Clustering, Visualization  
+
+---
+
+## ⭐ Acknowledgment  
+Special thanks to **RD Group of Industries** for project guidance and continuous support.  
