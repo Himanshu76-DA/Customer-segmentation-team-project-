@@ -1,0 +1,6 @@
+Cluster_labels,cust_counts,avg_recency,avg_frequency,total_monetary,avg_monetary
+High-Value Customer,665,233.09,1.0,445725.5,670.26
+Inactive Customer,40005,387.2,1.0,1078302.5,26.95
+Loyal Customer,352,230.38,2.17,50521.66,143.53
+New Customer,53442,127.74,1.0,1434773.45,26.85
+Super Frequent Customer,1,113.0,21.0,188.31,188.31
