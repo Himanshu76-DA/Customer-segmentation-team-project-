@@ -93,17 +93,17 @@ The goal is to identify valuable customer groups, analyze their purchasing patte
 ---
 
 ## Summary:  
-- Clean data and RFM clustering helped identify **valuable customer groups**.  
-- Visual insights supported targeted **marketing and delivery improvements**.  
-- The analysis can be expanded to include **predictive modeling** or **customer lifetime value estimation**.  
+- Cleaned dataset and RFM clustering effectively identified **high-value and loyal customer segments**.  
+- Visual insights highlighted patterns in **customer behavior, delivery performance, and sales trends**, aiding **targeted marketing and operational improvements**.  
+- Analysis can be extended to **predictive modeling, churn analysis, or customer lifetime value estimation** for deeper business impact.  
 
 ---
 
 ## 🧾 Tools & Libraries  
 - **Python:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Jupyter Notebook  
-- **Techniques:** EDA, Data Cleaning, RFM Clustering, Visualization  
+- **Techniques:** EDA, Data Cleaning, RFM Clustering, Customer Segmentation, Visualization  
 
 ---
 
 ## ⭐ Acknowledgment  
-Special thanks to **RD Group of Industries** for project guidance and continuous support.  
+Special thanks to **RD Group of Industries** for their guidance and continuous support throughout the project.
