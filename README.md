@@ -4,7 +4,7 @@
 - **Project Guided by:** [RD Group of Industries](https://github.com/TheRDGroupOfIndustries)  
 - **Siddhesh:** [@siddheshDA](https://github.com/siddheshDA)  
 - **Nandini:** [@nandiniarjun03](https://github.com/nandiniarjun03)  
-- **Himanshu(me):** [@Himanshu76-DA](https://github.com/Himanshu76-DA)  
+- **Himanshu:** [@Himanshu76-DA](https://github.com/Himanshu76-DA)  
 
 ---
 
@@ -92,7 +92,18 @@ The goal is to identify valuable customer groups, analyze their purchasing patte
 
 ---
 
-## Summary:  
+## 🔹 Power BI Dashboard  
+**Created by:** [Himanshu](https://github.com/Himanshu76-DA)
+
+This **interactive Power BI dashboard** visualizes customer segmentation insights, order performance, and key KPIs from the RFM and EDA analysis — providing a quick overview of the business’s customer behavior and sales trends.
+
+**📂 Files:**  
+- [Power BI File (.pbix)](https://github.com/Himanshu76-DA/Customer-segmentation-team-project-/blob/main/Olis%20Order%20Dashboard.pbix)  
+- [Dashboard PDF Overview](https://github.com/Himanshu76-DA/Customer-segmentation-team-project-/blob/main/Olis%20Order%20Dashboard.pdf)
+
+---
+
+## Summary  
 - Cleaned dataset and RFM clustering effectively identified **high-value and loyal customer segments**.  
 - Visual insights highlighted patterns in **customer behavior, delivery performance, and sales trends**, aiding **targeted marketing and operational improvements**.  
 - Analysis can be extended to **predictive modeling, churn analysis, or customer lifetime value estimation** for deeper business impact.  
@@ -101,6 +112,7 @@ The goal is to identify valuable customer groups, analyze their purchasing patte
 
 ## 🧾 Tools & Libraries  
 - **Python:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Jupyter Notebook  
+- **Power BI:** Interactive dashboards, KPI visuals, data modeling  
 - **Techniques:** EDA, Data Cleaning, RFM Clustering, Customer Segmentation, Visualization  
 
 ---
