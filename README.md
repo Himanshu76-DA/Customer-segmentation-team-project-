@@ -93,6 +93,9 @@ The goal is to identify valuable customer groups, analyze their purchasing patte
 ---
 
 ## 🔹 Power BI Dashboard  
+
+![Power BI Dashboard Preview](https://raw.githubusercontent.com/Himanshu76-DA/Customer-segmentation-team-project-/main/Dashboard%20Image.png)
+
 **Created by:** [Himanshu](https://github.com/Himanshu76-DA)
 
 This **interactive Power BI dashboard** visualizes customer segmentation insights, order performance, and key KPIs from the RFM and EDA analysis — providing a quick overview of the business’s customer behavior and sales trends.
